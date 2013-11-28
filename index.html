@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>¿Cómo se hace Canaima GNU/Linux?</title>
+    <title>Canaima GNU/Linux 4.0</title>
     <meta name="description" content="Descripción del proceso de desarrollo de la Metadistribución Canaima GNU/Linux." />
     <meta name="author" content="Equipo de Desarrollo de Canaima" />
 
@@ -19,162 +19,168 @@
 
 <div id="impress">
 
-    <div id="title" class="step" data-x="-3000" data-y="-1500">
-        <h1>Canaima</h1>
-        <h2>Métodos y procesos</h2>
-        <h2>de construcción</h2>
-    </div>
-    
-    <div id="concepts" class="step" data-x="-2000" data-y="-1500">
-        <h2>Revisión de</h2>
-        <h1>Conceptos</h1>
-        <h2>fundamentales</h2>
-    </div>
-    
-    <div class="step slide" data-x="-1000" data-y="-1500">
-        <q>Una <b>distribución</b> GNU/Linux es un conjunto de software que se agrupa para proveer funcionalidades especializadas.</q>
+    <div class="step slide" id="inicio" data-x="-1000" data-y="-1500">
+        <img id="logo-gobierno" src="images/gobierno-inicio.png">
+        <img id="bicentenario" src="images/200-bi.png">
+        <img id="logo-inicio" src="images/logo-inicio.png">
+        <img id="cnti" src="images/cnti.png">
+        <img id="fidetel" src="images/fidetel.png">
     </div>
 
     <div class="step slide" data-x="-1000" data-y="-500">
-        <q>
-        Una <b>distribución</b> contiene:
-        <ul>
-        <li>Un núcleo o kernel.</li>
-        <li>Una interfaz de usuario.</li>
-        <li>Un conjunto de aplicaciones.</li>
+        <h3>Canaima GNU/Linux 4.0</h3>
+        <br>
+        <p>Canaima 4.0 esta basada en debian (7) de nombre código “Kerepakupai” en honor al Kerepakupai Vená, nombre originario (Pemón) de la caída de agua más alta del mundo, ubicada en el Parque Nacional Canaima, en Venezuela.</p>
+        <img id="salto-angel" src="images/salto-angel-2.png">
+    </div>
+
+    <div class="step slide" data-x="-2300" data-y="-500">
+        <h3>Canaima 4.0 presenta las siguientes características:</h3>
+         <ul> 
+            <li id="caracte_canaima">Escritorio Gnome 3.4</li>
+            <li id="caracte_canaima">Kernel Linux 3.2.0</li>
+            <li id="caracte_canaima">Servidor de ventanas X.org 7.7</li>
+            <li id="caracte_canaima">Suite Ofimática LibreOffice 4.0.1</li>
+            <li id="caracte_canaima">Navegador Web Cunaguaro 22.0</li>
+            <li id="caracte_canaima">Cliente de Correo Guácharo 17.0.5</li>
+            <li id="caracte_canaima">Programa de manipulación de imágenes GIMP 2.8</li>
+            <li id="caracte_canaima">Editor de gráficos vectoriales Inkscape 0.48</li>
+            <li id="caracte_canaima">Lenguaje Python 2.7/3.2</li>
+            <li id="caracte_canaima">Lenguaje Perl 5.14</li>
         </ul>
-        </q>
+        <img id="distro" src="images/distro-1.png">
     </div>
 
-    <div class="step" data-x="-2000" data-y="-500">
-        <img src="images/distro.png" />
-    </div>
-
-    <div class="step slide" data-x="-3000" data-y="-500" data-rotate="90">
-        <q>
-        Un <b>sistema operativo</b> elemental consta de un núcleo y una interfaz de usuario.
-        </q>
-    </div>
-
-    <div class="step slide" data-x="-2000" data-y="500">
-        <q>
-        Una <b>metadistribución</b> es una distribución que contiene las herramientas y la estructura necesaria para que se generen otras distribuciones a partir de ella.
-        </q>
+    <div class="step slide" data-x="-2300" data-y="500">
+       <h3>Paquetes de Canaima 4.0</h3>
+         <ul> 
+            <li id="caracte_canaima">Canaima Notas Gnome</li>
+            <li id="caracte_canaima">Canaima Plymouth</li>
+            <li id="caracte_canaima">Guacharo</li>
+            <li id="caracte_canaima">Cunaguaro</li>
+            <li id="caracte_canaima">Software Center</li>
+            <li id="caracte_canaima">Canaima Accesibilidad gdm Gnome</li>
+            <li id="caracte_canaima">Prometeo ABC</li>
+            <li id="caracte_canaima">Gnome Shell Extensions Gnamon </li>
+            <li id="caracte_canaima">Canaima Bienvenido Gnome</li>
+            <li id="caracte_canaima">Jockey</li>
+            <li id="caracte_canaima">Canaima Fondos Dinámicos</li>
+        </ul>
+        <img id="paquetes" src="images/paquetes.png">
     </div>
     
     <div class="step bigtitle" data-x="-1000" data-y="1000" data-rotate="90" data-scale="4">
-        <p>Canaima es una <i><b>metadistribución</b></i></p>
+        <p>Aplicaciones<i><b>Destacadas</b></i></p>
     </div>
 
-    <div class="step slide" data-x="-2000" data-y="1500">
-        De Canaima se derivan las siguientes distribuciones o <b>sabores</b>:
-        <ul>
-        <li>Canaima Popular (CNTI)</li>
-        <li>Canaima Educativo (CNTI)</li>
-        <li>Canaima CNTI (CNTI)</li>
-        <li>Canaima CANTV (CANTV)</li>
-        <li>Canaima Caribay (CENDITEL)</li>
-        <li>Canaima Comunal (COMUNIDAD)</li>
-        <li>Canaima Colibrí (COMUNIDAD)</li>
-        <li>Canaima Forense (COMUNIDAD)</li>
+    <div class="step slide" data-x="-2300" data-y="1500">
+        <h3>Canaima Bienvenido Gnome</h3>
+        <p id="app">Rediseño de la aplicación Canaima-bienvenido basando en huayra-bullets de la distribución argentina Huayra Linux.
+        Muestra una ventana al inicio con las aplicaciones más usadas e información para asistir al usuario con la introducción en el uso del Sistema Operativo.</p>
+        <img id="canaima-bienvenido-img" src="images/canaima-bienvenido-gnome.png">
+    </div>
+    
+    <div class="step slide" data-x="-3500" data-y="1000" data-rotate="90">
+        <h3>Jockey</h3>
+        <p id="app">El jockey proporciona una interfaz de usuario para la configuración de controladores de terceros, tales como los diversos módulos del núcleo LAN inalámbrica Nvidia y ATI fglrx X.org.</p>
+        <img id="jockey-app" src="images/jockey-app.png">
+    </div>
+
+    <div class="step slide" data-x="-3500" data-y="2300" data-rotate="90">
+        <h3>Centro de Software</h3>
+        <p id="app">El centro de software te da acceso instantáneo a miles de aplicaciones en software libre, de todo tipo y para todos los gustos. Descubre interesantes aplicaciones  con un solo click.</p>
+        <img id="software-app" src="images/software-center-app.png">
+    </div>
+
+    <div class="step slide" data-x="-4800" data-y="-500">
+        <h3>Accesibilidad en Canaima GNU/Linux</h3>
+        <br>
+        <ul> 
+            <li id="caracte_canaima">Voz Silvia (Guadalinex)</li>
+            <li id="caracte_canaima">Fuente de Lenguas de señas Venezolanas</li>
+            <li id="caracte_canaima">Orca 3.4.2-2</li>
+            <li id="caracte_canaima">Prometeo ACB</li>
+            <li id="caracte_canaima">Gcompris</li>
         </ul>
-    </div>
-    
-    <div class="step" data-x="-3000" data-y="0" data-z="500" data-rotate-x="30" data-scale="8">
-        <p><b>¿Para qué?</b></p>
-    </div>
-    
-    <div class="step" data-x="-3000" data-y="1000" data-z="1000" data-rotate-x="-15" data-scale="8">
-        <p><b>¿Por qué?</b></p>
-    </div>
-    
-    <div class="step" data-x="-3000" data-y="2000" data-z="500" data-rotate-x="-60" data-scale="8">
-        <p><b>¿Cómo?</b></p>
+        <img id="accesibilidad-img" src="images/accesibilidad-gnome.png">
     </div>
 
-    <div class="step slide" data-x="-5500" data-y="3000">
-        Canaima es Software Libre, significa que:
-        <ul>
-        <li>Su propiedad es colectiva.</li>
-        <li>Su código puede ser visto, modificado y distribuído libremente.</li>
-        <li>Su esquema de trabajo es colaborativo y abierto.</li>
-        <li>Sus aplicaciones son desarrolladas bajo lenguajes y estándares abiertos.</li>
-        <li>Se procura estimular la participación comunitaria en la toma de decisiones.</li>
+    <div class="step slide" data-x="-4800" data-y="500">
+        <h3>Prometeo ABC</h3>
+        <p id="app"> Es un aplicación que contiene el abecedario en lengua de señas Venezolana, para niños y personas con Discapacidad auditiva. Hecho totalmente en Blender con la colaboración del colectivo Blender-Chevere.</p>
+        <img id="prometeo-abc-gnome" src="images/prometeo-abc.png">
+    </div>
+
+    <div class="step slide" data-x="-4800" data-y="1800" data-rotate="90">
+        <h3>LibreOffice</h3>
+        <p id="app">Una suite de productividad moderna fácil de usar para procesar texto, hojas de cálculo, presentaciones y más. En Canaima viene incluido por defecto con la versión 4.1.0.4.</p>
+        <img id="libreoffice-img" src="images/libreoffice.png">
+    </div>
+
+    <div class="step bigtitle" data-x="-4800" data-y="3800" data-rotate="90" data-scale="4">
+        <p>Laboratorio<p>de</p><i><b>Usabilidad</b></i></p>
+    </div>
+
+     <div class="step slide" data-x="-3500" data-y="3900">
+         <h3>1er Laboratorio de Usabilidad de Canaima</h3>
+         <p id="app">Realizada el 25-04-13 en la Universidad Nacional Experimental Marítima del Caribe (UMC), ubicada en Catia La Mar, Estado Vargas, contando con la participación activa de la comunidad estudiantil, docentes, personal obrero y administrativo de la UMC y compañeros de la Comunidad de Software Libre.</p>
+         <img id="laboratorio-img" src="images/laboratorio.png">
+    </div>
+    
+    <div class="step slide" data-x="-2000" data-y="3900">
+         <h3>Gnome Shell Extensions Gnamon</h3>
+         <p id="app">Es un paquete que contiene un conunto de extensiones para el tema Gnamon. Surge tras el 1er laboratorio de usabilidad , en cual las pruebas y encuestas realizados arrojaron las necesidades de los usuarios de tener un entorno mas amigable y accesibles.</p>
+         <img id="gnamon-app-img"src="images/gnamon-app.png">
+    </div>
+
+    <div class="step bigtitle" data-x="-8000" data-y="-1000" data-rotate="0" data-scale="4">
+        <i><b>7ma Cayapa</b></i></p>
+    </div>
+
+    <div class="step slide" data-x="-8000" data-y="0">
+        <h3>7ma Cayapa Canaima</h3>
+        <p id="app">Las Cayapas son el espacio para intercambiar ideas, dar sugerencias y aportes que contribuyan a mejorar el sistema de operaciones venezolano Canaima GNU/Linux </p>
+        <img id="cayapa-img" src="images/cayapa-img.png">
+    </div>
+
+    <div class="step slide" data-x="-8000" data-y="1000">
+        <h3>Mesas de Trabajo</h3>
+        <ul> 
+            <li id="caracte_canaima">Jockey Detector de Hardware</li>
+            <li id="caracte_canaima">Canaima Instalador</li>
+            <li id="caracte_canaima">Canaima Medios</li>
+            <li id="caracte_canaima">Tribus</li>
+            <li id="caracte_canaima">Cimarron</li>
+            <li id="caracte_canaima">Shabono - Sistema de Gestión Hotelera</li>
+            <li id="caracte_canaima">Plataformas Web de Canaima</li>
+            <li id="caracte_canaima">Mesa de verificación de Canaima 4.0</li>
+            <li id="caracte_canaima">Mesas Técnica de Accesibilidad</li>
+            <li id="caracte_canaima">Promover la certificación electrónica</li>
+            <li id="caracte_canaima">Sistema De Información Para Los Consejos Comunales</li>
         </ul>
+        <img id="cayapa-img-3" src="images/cayapa-img-3.png">
     </div>
 
-    <div class="step slide" data-x="-5500" data-y="4000">
-        <ul>
-        <li>Canaima está basada en otra metadistribución: <b>Debian</b></li>
-        <li>Debian es un proyecto internacional<sup><a href="http://www.debian.org/devel/developers.loc">0</a></sup>, con un esquema colaborativo basado en la <b>excelencia del código</b> y la <b>descentralización</b> del poder.</li>
-        <li>Para la versión 6.0, Debian tenía 1743 desarrolladores <sup><a href="https://db.debian.org/">1</a></sup> y ~28000 paquetes<sup><a href="http://ftp-master.debian.org/users/joerg/pkg-nums">2</a></sup>.</li>
-        <li>Para la versión 3.1, Canaima tenía 5 desarrolladores y 464 paquetes.</li>
+    <div class="step slide" data-x="-8000" data-y="2000">
+        <ul> 
+            <li id="caracte_canaima">Mapa de Ruta de la Siguiente versión de Canaima</li>
+            <li id="caracte_canaima">Aplicación YOJAMA</li>
+            <li id="caracte_canaima">Salvapantallas Bicentenario</li>
+            <li id="caracte_canaima">La Cayapa</li>
+            <li id="caracte_canaima">Canaima Educativo</li>
+            <li id="caracte_canaima">Sabor Canaima USB Live</li>
+            <li id="caracte_canaima">Canaima Base y tasksel</li>
         </ul>
+        <img id="cayapa-img-2" src="images/cayapa-img-2.png">
     </div>
 
-    <div class="step slide" data-x="-5500" data-y="5000">
-        Origen de los paquetes según distribución
-        <img src="images/debiancanaima.png" />
-    </div>
-    
-    <div class="step" data-x="-4500" data-y="4000" data-rotate="-90" data-scale="3">
-        <p><b>¿En qué consiste el trabajo de la</b></p>
-        <p><b>Oficina de Operaciones Canaima?</b></p>
-    </div>
-    
-    <div id="ciclo" class="step" data-x="-3500" data-y="1500" data-rotate="-90" data-scale="3">
-        <p>La oficina se divide en tres equipos:</p>
-        <ul>
-        <li><span class="up1"><b>Plataforma</b> - 4 personas</span></li>
-        <li><span class="up2"><b>Soporte</b> - 1 persona</span></li>
-        <li><span class="up3"><b>Desarrollo</b> - 5 personas</span></li>
-        <ul>
-    </div>
 
-    <div class="step slide" data-x="-3500" data-y="3500">
-        <b>Equipo de plataforma</b>
-        <ul>
-        <li>Administración de los servidores (12 unidades).</li>
-        <li>Administración de las máquinas virtuales.</li>
-        <li>Mantenimiento de servicios críticos.</li>
-        <li>Desarrollo de aplicaciones.</li>
-        <li>Gestión de permisología.</li>
-        <ul>
-    </div>
-
-    <div class="step" data-x="-2500" data-y="3500">
-        <img src="images/servidores.png" />
-    </div>
-
-    <div class="step" data-x="-1500" data-y="3500">
-        <img src="images/servicios.png" />
-    </div>
-
-    <div class="step slide" data-x="-500" data-y="3500">
-        <b>Resumen de plataforma</b>
-        <ul>
-        <li>Unidades: 8 CANTV + 4 CNTI.</li>
-        <li>Almacenamiento: 2,3TB (discos) + 7,8TB (red).</li>
-        <li>Memoria: 67GB.</li>
-        <li>Servicios: 17 críticos, 8 complementarios, 11 comunidad, 29 experimentales.</li>
-        <li>Mantenedores: 4 CNTI + 20 comunidad.</li>
-        <ul>
-    </div>
-
-    <div class="step slide" data-x="-3500" data-y="4500">
-        Equipo de soporte
-        <ul>
-        <li>Proveer soporte de 3er y 4to nivel a las instituciones del estado y usuarios de Canaima.</span></li>
-        <li>Documentar casos resueltos en la Enciclopedia Colaborativa.</span></li>
-        <ul>
-    </div>
-
-    <div class="step" data-x="-2500" data-y="4500">
-        <img src="images/soporte.png" />
+    <div class="step bigtitle" data-x="1200" data-y="1000" data-rotate="90" data-scale="4">
+        <p>Procesos<p>para generar</p><i><b>Canaima Estable</b></i></p>
     </div>
 
     <div class="step slide" data-x="-3500" data-y="5500">
-        Equipo de desarrollo
+        <h3>Actividades del Equipo del Desarrollo</h3>
         <ul>
         <li>Estructurar los componentes básicos del Sistema Operativo.</li>
         <li>Proveer un conjunto de aplicaciones para ofimática, multimedia e internet.</li>
@@ -185,40 +191,17 @@
         <ul>
     </div>
 
-    <div class="step" data-x="-2500" data-y="5500">
+    <div class="step" data-x="-2000" data-y="5500">
         <img src="images/ciclo-desarrollo.png" />
     </div>
 
-    <div class="step" data-x="-1500" data-y="5500">
+    <div class="step" data-x="-1000" data-y="5500">
         <img src="images/ciclo-pruebas.png" />
     </div>
-    
-    <div id="retos" class="step" data-x="-2000" data-y="2500" data-scale="2">
-        <span class="masgrande"><b>Retos</b></span> <span class="grande">Oportunidades</span> <span class="normal">Debilidades</span>
-    </div>
 
-    <div class="step" data-x="-1000" data-y="2500">
-        <img src="images/aplicaciones.png" />
-    </div>
-    
-    <div class="step" data-x="0" data-y="2500" data-rotate="-90">
-        <p><b>Automatizar los procesos repetitivos dentro del esquema de desarrollo de Canaima.</b></p>
-    </div>
-    
-    <div class="step" data-x="0" data-y="1500" data-rotate="-90">
-        <p><b>Establecer un esquema de participación comunitaria dentro de los procesos de construcción de Canaima.</b></p>
-    </div>
-    
-    <div class="step" data-x="0" data-y="500" data-rotate="-90">
-        <p><b>Establecer una Red Nacional de Soporte para Canaima.</b></p>
-    </div>
-    
-    <div class="step" data-x="0" data-y="-500" data-rotate="-90">
-        <p><b>Aumentar la cantidad de personal asignado al Proyecto Canaima.</b></p>
-    </div>
-    
-    <div class="step" data-x="0" data-y="-1500" data-rotate="-90">
-        <p><b>Reducir los costos de mantenimiento de los servidores en el Data Center del Hatillo.</b></p>
+    <div class="step slide" data-x="500" data-y="5500">
+        <h3 id="canaima-estable-text">Canaima GNU/Linux Estable</h3>
+        <img id="canaima-estable" src="images/canaima-estable.png">
     </div>
 
     <div id="overview" class="step" data-x="-3000" data-y="2000" data-scale="12"></div>
