@@ -810,7 +810,7 @@ img#paquetes{
 img#canaima-bienvenido-img{
     position: relative;
     right:-25%;
-    margin-top: 0%;
+    margin-top: -2%;
 }
 img#jockey-app{
     position: relative;
@@ -833,9 +833,9 @@ img#prometeo-abc-gnome{
     top:45%;
 }
 img#canaima-estable{
-    position:absolute;
-    right: 23%;
-    top:28%;
+    position:relative;
+    right: -22%;
+    margin-top:8%;
 }
 img#libreoffice-img{
     position:relative;
@@ -849,8 +849,8 @@ img#laboratorio-img{
 }
 img#gnamon-app-img{
     position:relative;
-    right: -35%;
-    margin-top: 5%;
+    right: -30%;
+    margin-top: 1%;
 }
 img#cayapa-img{
     position:relative;
@@ -865,6 +865,36 @@ img#cayapa-img-3{
     position:absolute;
     right: 2%;
     top:2%;
+}
+img#iso_1{
+    position:absolute;
+    right: 75%;
+    top:75%;
+}
+img#iso_2{
+    position:absolute;
+    right: 45%;
+    top:75%;
+}
+img#iso_3{
+    position:absolute;
+    right: 13%;
+    top:75%;
+}
+p#text_iso_1{
+    position:absolute;
+    right: 13%;
+    top:90%;
+}
+p#text_iso_2{
+    position:absolute;
+    right: 47%;
+    top:90%;
+}
+p#text_iso_3{
+    position:absolute;
+    right: 77%;
+    top:90%;
 }
 
 h3#canaima-estable-text{
