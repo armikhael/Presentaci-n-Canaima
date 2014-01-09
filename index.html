@@ -10,6 +10,8 @@
     <link href="css/impress.css" rel="stylesheet" />
 </head>
 
+
+
 <body class="impress-not-supported">
 
 <div class="fallback-message">
@@ -207,7 +209,7 @@
         <img id="iso_3" src="images/iso.png">
         <p id="text_iso_1">amd64</p>
         <p id="text_iso_2">i386</p>
-        <p id="text_iso_3">pae</p>
+        <p id="text_iso_3">no-pae</p>
     </div>
 
     <div id="overview" class="step" data-x="-3000" data-y="2000" data-scale="12"></div>
@@ -215,7 +217,16 @@
 </div>
 
 <script src="js/impress.js"></script>
-<script>impress().init();</script>
+<script>
+impress().init();
+var autoAdvTime = 10000; //Time to wait before advancing all other slides. (Milliseconds)
+    impress().init();
+    window.setTimeout(autoAdv, autoAdvTime); 
+    function autoAdv() {
+        impress().next();
+        window.setTimeout(autoAdv,autoAdvTime);
+    }
+</script>
 
 </body>
 </html>
